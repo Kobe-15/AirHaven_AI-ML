@@ -1,11 +1,10 @@
 # AirHaven — Air Quality Monitoring System
-A thesis project developed at Pamantasan ng Lungsod ng Maynila (2025–2026)
 
 ## Overview
-AirHaven is an intelligent air quality monitoring and forecasting system developed as a thesis project for the BS Computer Engineering program. The system utilizes machine learning models to predict air quality levels and provide real-time monitoring across different areas. This repository contains the AI/ML backbone of the AirHaven application, featuring data processing, model training, and prediction capabilities.
+AirHaven AI is a machine learning system that processes real-time air quality sensor data to deliver hourly and daily AQI forecasts. Built with Python and scikit-learn, it performs automated data cleaning, feature engineering, and dual-model prediction — integrating seamlessly with Firebase to power the AirHaven mobile application.
 
 ## Tech Stack
-- **Language**: Python 3.x
+- **Language**: Python 3.13.7
 - **ML Framework**: scikit-learn
 - **Data Processing**: pandas, NumPy
 - **Serialization**: joblib
@@ -79,12 +78,6 @@ AI/
    python main.py
    ```
 
-## Thesis Information
-- **Institution**: Pamantasan ng Lungsod ng Maynila
-- **Program**: BS Computer Engineering
-- **Year**: 2025–2026
-- **Project Title**: AirHaven — Real-time Air Quality Monitoring and Forecasting System
-
 ## Key Scripts
 
 ### Core Application Scripts (Production)
@@ -113,6 +106,6 @@ Each model includes:
 - Feature scaler for normalization
 - Metadata with training configuration and performance metrics
 
-## Contributing
-This is a thesis project for educational purposes at PLM. 
-External contributions are not expected but feel free to fork and explore.
+## License
+
+This project is part of an academic thesis. All rights reserved.
