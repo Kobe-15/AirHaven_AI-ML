@@ -1,0 +1,80 @@
+# Environment / secrets
+.env
+_env
+*.env
+*.key
+*.pem
+
+# Credentials and sensitive files
+*-adminsdk-*.json
+*-credentials.json
+credentials/
+secrets/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Data (large files, regenerated on server)
+data/
+Data/
+*.pkl
+*.pickle
+*.h5
+*.pt
+*.pth
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+logs/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
